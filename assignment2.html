@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --primary: #2c3e50;     
+    --secondary: #3498db;   
+    --accent: #5dade2;      
+    --text: #333333;        
+    --muted: #666666;       
+    --border: #d6dce0;      
+    --light: #f2f6f9;       
+    --white: #ffffff;       
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(light);
+    color: var(text);
+    line-height: 1.5;
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 850px;
+    margin: auto;
+    padding: 30px;
+    background-color: var(white);
+}
+
+
+h1 {
+    color: var(--primary);
+    text-align: center;
+    font-size: 28px;
+}
+
+
+h2 {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 16px;
+}
+
+
+.container > p {
+    text-align: center;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+
+section h3 {
+    color: var(--primary);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th {
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid var(--border);
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--light);
+}
+
+
+h4 {
+    color: var(--secondary);
+    margin-top: 10px;
+}
+
+
+.tech {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 4px;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 11px;
+    }
+
+    th, td {
+        padding: 5px;
+    }
+}
+</style>
+
+</head>
+<body>
+    <div class="container"></div>
+            <h1>SHARVANI G </h1>
+            <h2>Computer Science Engineering</h2>
+            <p>
+                Chennai, Tamil Nadu |
+                +91 6380582898 |
+                sharvani007.gopinath@gmail.com
+            </p>
+            <p>
+                GitHub: github.com/Sharvani-G007
+            </p>
+        
+
+        <section>
+            <h3>CAREER OBJECTIVE</h3>
+            <p>
+                Motivated Computer Science Engineering student with
+                knowledge of web development.Interested in developing
+                practical technology solutions, learning new tools
+                and contributing to innovative software projects.
+            </p>
+        </section>
+
+        <section>
+            <h3>EDUCATION</h3>
+            <table border="1">
+                <tr>
+                    <th>S.NO</th>
+                    <th>Qualification</th>
+                    <th>Institution</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>B.E. Computer Science and Engineering</td>
+                    <td>S.A. Engineering College, Chennai</td>
+                    <td>2027</td>
+                    <td>8.52</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Higher Secondary</td>
+                    <td>St. Joseph's.Anglo.Indian.Higher Secondary School, Chennai</td>
+                    <td>2023</td>
+                    <td>81.8%</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Secondary</td>
+                    <td>St. Joseph's.Anglo.Indian.Higher Secondary School, Chennai</td>
+                    <td>2021</td>
+                    <td>91.4%</td>
+                </tr>
+            </table>
+            
+        </section>
+
+        <section>
+            <h3>TECHNICAL SKILLS</h3>
+            <p>Programming:Java, Python</p>
+            <p>Frontend:HTML, CSS, JavaScript</p>
+            <p>Backend:Python Flask</p>
+            <p>Database:MongoDB</p>
+            <p>Tools:VS Code, Git, Figma</p>
+            <p>Design:Canva, Photoshop</p>
+        </section>
+
+        <section>
+            <h3>PROJECTS</h3>
+            <div class="item">
+                <h4>An Explainable AI-Assisted SOC Framework for Threat Detection, Incident Correlation and Predictive Risk Assessment</h4>
+                <p class="tech">
+                    Technology : React.js, Python(flask), Machine Learning, Explainable AI, MongoDB
+                </p>
+                <ul>
+                    <li>Developed a web application to detect and analyze
+                        cybersecurity threats using machine learning and
+                        explainable AI techniques.</li>
+                    <li>Implemented a Flask backend with MongoDB for
+                        data storage and management.</li>
+                    <li>Designed an interactive React.js frontend for
+                        visualizing threat detection results and risk
+                        assessment.</li>
+                </ul>
+            </div>
+            <div class="item">
+                <h4>Employee and Asset Management System</h4>
+                <p class="tech">
+                    Technology : HTML, CSS, JavaScript, Python Flask, MongoDB, JWT
+                </p>
+                <ul>
+                    <li>Developed a web application to manage employee
+                        records and organizational assets.</li>
+                    <li>Implemented authentication, CRUD operations,
+                        search, filtering and report generation.</li>
+                    <li>Integrated a Flask backend with MongoDB for
+                        data storage and management.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h4>Food Waste Management and Redistribution System</h4>
+                <p class="tech">
+                    Technology : HTML, CSS, JavaScript, Python Flask, MongoDB
+                </p>
+                <ul>
+                    <li>Designed a web platform connecting food donors
+                        with NGOs to support food redistribution.</li>
+                    <li>Implemented location-based matching to help
+                        identify nearby collection and delivery options.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>INTERNSHIP EXPERIENCE</h3>
+            <div class="item">
+                <h4>Graphic Designer Intern — InAmigos Foundation</h4>
+                <p>Duration: June 2025 </p>
+                <ul>
+                    <li>Designed promotional posters and social media
+                        creatives using Canva and Photoshop.</li>
+                    <li>Created short-form reels and visual content
+                        for digital communication.</li>
+                </ul>
+            </div>
+
+            <div class="item">
+                <h4>Web Developer — Altrocks Tech Pvt. Ltd.</h4>
+                <p>Duration : May 2026 - June 2026</p>
+                <p> Employee and Asset Management System</p>
+                <ul>
+                    <li>Worked on frontend development and integrated
+                        application features with backend APIs.</li>
+                    <li>Used HTML, CSS, JavaScript, Flask, MongoDB
+                        and JWT authentication.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h3>SOFT SKILLS</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Teamwork</li>
+                <li>Communication</li>
+                <li>Adaptability</li>
+                <li>Quick Learning</li>
+            </ul>
+        </section>
+
+    </div>
+
+</body>
+</html>
